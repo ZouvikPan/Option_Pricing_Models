@@ -10,22 +10,22 @@
 ## Results 
 ### Jarrow-Rudd Binomial Option Pricing Model
 #### Python
-- Average time taken by on ***European*** call or put options - **4.51 ms**
-- Average time taken by on ***American*** call or put options - **8.08 ms**
+- Average time taken on ***European*** call or put options - **4.51 ms**
+- Average time taken on ***American*** call or put options - **8.08 ms**
 #### Cython
-- Average time taken by on ***European*** call or put options - **26.6 µs**
-- Average time taken by on ***American*** call or put options - **50.7 µs**
+- Average time taken on ***European*** call or put options - **26.6 µs**
+- Average time taken on ***American*** call or put options - **50.7 µs**
 #### Time Improvement in Cython as compared to Python
 - For ***European*** Options - **170 times faster**
 - For ***American*** Options - **160 times faster**
 
 ### Black-Scholes-Merton Option Pricing Model
 #### Python
-- Time taken by on ***European put*** option - **130 µs**
-- Time taken by on ***European call*** option - **133 µs**
+- Time taken on ***European put*** option - **130 µs**
+- Time taken on ***European call*** option - **133 µs**
 #### Cython
-- Time taken by on ***European put*** option - **133 ns**
-- Time taken by on ***European call*** option - **128 ns**
+- Time taken on ***European put*** option - **133 ns**
+- Time taken on ***European call*** option - **128 ns**
 #### Time Improvement in Cython as compared to Python
 - For ***European put*** Options - **977 times faster**
 - For ***European call*** Options - **1040 times faster**
